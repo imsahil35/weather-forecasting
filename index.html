@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Weather Forecast</title>
+</head>
+<body>
+    <div class="weather-container">
+        <h1>Weather Forecast</h1>
+        <div class="weather-data">
+            <div class="search">
+                <input type="text" id="city-name" placeholder="Enter Location:"/>
+                <button id="search-btn"><span class="search-img">Search</span></button>
+              
+                
+            </div>
+            <div class="weather">
+                <span id="condition" class="weather-icon"></span>
+                <h1 class="temp">25</h1>
+                <h2 class="city">Anantapur</h2>
+                <div class="info">
+                    <div class="condition">
+                        <p style="font-weight:bold;">Condition</p>
+                        <p id="cond">Clouds</p>
+                    </div>
+                    <div class="sunrise">
+                        <p style="font-weight:bold;">Sunrise</p>
+                        <p id="rise">00:00</p>
+                    </div>
+                    <div class="sunset">
+                        <p style="font-weight:bold;">Sunset</p>
+                        <p id="set">00:00</p>
+                    </div>
+                </div>
+                <div class="details">
+                    <div class="column">
+                        <span class="situation-img"></span>
+                        <div class="parameters-text">
+                            <p class="humidity">97</p>
+                            <p class="name">Humidity</p>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <span class="wind-img"></span>
+                        <div class="parameters-text">
+                            <p class="wind">20</p>
+                            <p class="name">Wind</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
